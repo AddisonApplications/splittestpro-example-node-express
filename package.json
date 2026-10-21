@@ -1,0 +1,19 @@
+{
+  "name": "splittestpro-example-node-express",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example Express app for Split Test Pro server-side testing: evaluate feature flags, record exposures and conversions, and run a hybrid test with the HTML pixel.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "simulate": "node scripts/simulate.mjs",
+    "rest": "bash scripts/rest.sh"
+  },
+  "dependencies": {
+    "@splittestpro/node": "^0.1.0",
+    "express": "^5.3.0"
+  }
+}
